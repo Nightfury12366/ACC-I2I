@@ -70,10 +70,10 @@ python test.py --name f2a_06 --dataroot ./datasets/face2anime
 
 ### Compare with baseline
 <p align="center">
-<img src="./doc/compare_w.png" width="800px"/>
+<img src="./doc/compare_w.jpg" width="800px"/>
 <br></p>
 
 ### Realtime Video I2I Performance
 <p align="center">
-<img src="./doc/video_i2i.png" width="800px"/>
+<img src="./doc/video_i2i.jpg" width="800px"/>
 <br></p>
