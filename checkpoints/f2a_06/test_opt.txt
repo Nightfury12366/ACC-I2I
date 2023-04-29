@@ -1,0 +1,42 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 8                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: ./datasets/face2anime         
+             dataset_mode: unaligned                     
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: 0, 1, 2, 3                    
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+              lock_weight: False                         
+         max_dataset_size: inf                           
+                    model: acg_i2i_sc                    
+               n_layers_D: 3                             
+                     name: f2a_06                        
+                      ndf: 64                            
+                     netD: multi                         
+                     netG: SKY_G                         
+                      ngf: 64                            
+             no_antialias: False                         
+          no_antialias_up: False                         
+               no_dropout: True                          
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 500                           
+              num_threads: 12                            
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: ./results/                    
+           serial_batches: False                         
+                   suffix:                               
+                  verbose: False                         
+----------------- End -------------------
