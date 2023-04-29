@@ -1,7 +1,7 @@
 # ACC-I2I
 The pytorch implement of "An Attribute Consistency Constraint Model for End-to-end Image Translation"
 <p align="center">
-<img src="./doc/s_model.pdf" width="800px"/>
+<img src="./doc/s_model.png" width="800px"/>
 <br></p>
 
 ## Dependency
@@ -41,6 +41,7 @@ The dataset we use for training is the [face2anime](https://drive.google.com/fil
 ```
 
 Sefile2Anime: [selfie2anime](https://drive.google.com/file/d/1xOWj1UVgp6NKMT3HbPhBbtq2A4EDkghF/view?usp=sharing) dataset from UGATIT.
+
 Cat2Dog and Dog2Cat: AFHQ dataset from stargan-v2.
 
 ## Test
@@ -69,10 +70,10 @@ python test.py --name f2a_06 --dataroot ./datasets/face2anime
 
 ### Compare with baseline
 <p align="center">
-<img src="./doc/compare_w.pdf" width="800px"/>
+<img src="./doc/compare_w.png" width="800px"/>
 <br></p>
 
 ### Realtime Video I2I Performance
 <p align="center">
-<img src="./doc/realtime_video_i2i.pdf" width="800px"/>
+<img src="./doc/video_i2i.png" width="800px"/>
 <br></p>
